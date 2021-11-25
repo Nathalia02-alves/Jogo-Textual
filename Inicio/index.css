@@ -1,0 +1,87 @@
+
+html,body{
+    height: 100%;
+    padding:0px; 
+    margin:0px
+ }
+ .logo{
+    padding: 5px;
+    background-color: rgb(29, 27, 27);
+    color:white;
+    display:flex;
+    justify-content:space-around;
+    align-items:flex-end;
+ }
+ a{
+    font-size: 20px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color:goldenrod;
+    text-decoration: none;
+    text-align: center;
+    padding:8px;
+    gap:16px;     
+ }
+ a:hover{
+    background-color:goldenrod;
+    color:black;
+    font-size: 20px;
+    text-decoration: none;
+    padding:8px;
+    gap:16px;
+ }
+  .pagInicial{
+     display: flex;
+     flex-direction: column;
+     background-image: url(https://www.riotgames.com/darkroom/1120/d27a2c5dcf04fc5a20a25d957f60c331:4ad6f903e663fed1b6f0d5f3eb1f0a05/world-of-riotx-arcane-key-art.png);
+     background-repeat: no-repeat;
+     background-size: 100%;
+ }
+  .apresentacao{
+     font-size:15px;
+     flex: 2 0 auto;
+     margin-top: 30px;
+     margin-left: 35%;
+     margin-right: 35%;
+     margin-bottom: 40px;
+     border-style:double;
+     border-color: goldenrod;
+     border-radius: 6pt;
+     background-color:rgb(0, 0, 0);
+     background-size: 15px;
+     color:white;
+     text-align:center;
+ }
+ #começo{
+    font-style: italic;
+ }
+ .btn-inicio{
+    font-family:fantasy;
+    font-size: 30px;
+    text-transform: uppercase;
+    text-decoration:none;
+    text-align: center;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    margin-bottom:60px;
+    margin: auto;
+    padding:15px;
+    border-radius: 6px;
+    background-color:black;
+    border-color: goldenrod;
+    color:goldenrod; 
+ }
+ .btn-inicio:hover{
+    background-color:goldenrod;
+    color:black;
+    border-color:black;
+    border-radius: 6px;
+ }
+ footer{
+    flex-shrink:0 ;
+    padding: 15px;
+    background-color: rgb(29, 27, 27);
+    color:white;
+    text-align:center;  
+ }
+ 
